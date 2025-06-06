@@ -12,13 +12,21 @@
 .dartcol{
     color: #474747;
 }
+.btn-primary {
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: bold;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 15px 15px;
 
+}
 /* Nav styles */
 nav{
     display: flex;
     text-align: center;
-    justify-content: space;
-   
+    justify-content: space-between;
+    width: 75%;
 }
 .nav-tittle{
    font-weight: 800;
@@ -26,6 +34,7 @@ nav{
 }
 nav ul{
     display: flex;
+    align-items: center;;
 }
 nav ul li{
     list-style-type: none;
@@ -33,5 +42,15 @@ nav ul li{
 }
 nav li a {
     text-decoration: none;
-    
+}
+
+/* Banner Styles */
+
+.banner-grettings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-tittle{
+    font-weight: 85;
+    font-size: 85px;
 }
