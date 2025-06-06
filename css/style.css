@@ -26,7 +26,7 @@ nav{
     display: flex;
     text-align: center;
     justify-content: space-between;
-    width: 75%;
+    
 }
 .nav-tittle{
    font-weight: 800;
@@ -45,7 +45,14 @@ nav li a {
 }
 
 /* Banner Styles */
-
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Keeps items aligned */
+}
+.banner-content{
+    max-width: 580px;
+}
 .banner-grettings{
     font-size: 45px;
     font-weight: 600;
@@ -53,4 +60,7 @@ nav li a {
 .banner-tittle{
     font-weight: 85;
     font-size: 85px;
+}
+.banner-profile-pic{
+   width: 500px;
 }
