@@ -1,3 +1,37 @@
-body{
-    background: none;
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.dartcol{
+    color: #474747;
+}
+
+/* Nav styles */
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space;
+   
+}
+.nav-tittle{
+   font-weight: 800;
+   font-size: 45px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+    margin-right: 40px;
+}
+nav li a {
+    text-decoration: none;
+    
 }
