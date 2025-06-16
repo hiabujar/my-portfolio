@@ -40,9 +40,9 @@
 
 /* header */
 .header{
-    background-image: url('../images/developer.png');
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: top left, bottom right;
     
 }
 
@@ -58,6 +58,7 @@ nav{
 .nav-tittle{
    font-weight: 800;
    font-size: 45px;
+   margin-left: 150px;
 }
 nav ul{
     display: flex;
@@ -78,7 +79,7 @@ nav li a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 50px 0 200px;
+    margin: 0 100px 0 150px;
 
  }
 
@@ -95,6 +96,7 @@ nav li a {
 }
 .banner-profile-pic{
    width: 500px;
+
 }
 
 
@@ -114,7 +116,7 @@ main{
 
 .about-items{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around ;
 }
 
 .item-description{
