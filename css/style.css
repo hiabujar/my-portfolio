@@ -7,6 +7,7 @@
 }
 
 /* shared style */
+
 .secondery-bg {
     background-color: #FFF8F3;
 }
@@ -199,4 +200,62 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     display: block;
     padding: 5px;
     border: 1px solid black;
+}
+
+
+
+
+/* Media query */
+
+@media screen and (max-width:576px) {
+   .skills-container, .resume-container{
+       flex-direction: column;
+    }    
+   footer{
+     flex-direction: column;
+     padding: 20px;
+   }
+   .footer-column{
+    width: 100%;
+    margin: 10px;
+   }
+   footer input[type="text"], footer input[type="email"], footer textarea{
+        width: calc(100% - 40px);
+   }
+   .about{
+    flex-direction: column;
+    padding: 20px;
+   }
+   .about-items{
+    flex-direction: column;
+   }
+   .banner{
+    flex-direction: column;
+   }
+   .header{
+    background-image: none;
+   }
+   .banner-profile-pic {
+    width: 100%;
+   }
+   nav, nav > ul{
+    flex-direction: column;
+   }
+   .nav-tittle{
+    margin: 0 auto;
+    }
+    nav > ul{
+        gap: 10px;
+    }
+    .btn-primary{
+        margin-top: 20px;
+    }
+
+}
+
+
+
+
+.hide{
+    display: none;
 }
